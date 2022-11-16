@@ -28,11 +28,11 @@ const App = () => {
    />
    <Main ref={mainRef} />
    <About ref={aboutRef} />
-   <Designs ref={designsRef} />
    <Projects ref={projectsRef} />
+   <Designs ref={designsRef} />
    <Contact ref={contactRef} />
    <Footer />
-   <ScrollToTop/>
+   <ScrollToTop />
   </div>
  );
 };
